@@ -1,0 +1,10 @@
+/.idea/
+/target/
+/dependency-reduced-pom.xml
+/src/main/resources/webapp
+/logs
+/src/main/frontend/node/
+application.properties
+/package-lock.json
+/package.json
+/node_modules/

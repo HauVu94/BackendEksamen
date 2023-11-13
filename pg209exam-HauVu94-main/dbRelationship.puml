@@ -1,0 +1,34 @@
+@startuml
+' hide the spot
+hide circle
+
+entity users {
+* user_id : int : PK
+* username : varchar100
+* date_created : date
+* email : varchar100
+* phonenumber : varchar100
+
+}
+
+entity "messages" as m {
+* message_id : int : PK
+* message_subject : varchar(100)
+* message_body : varchar(max)
+* message_date : date
+* user_id : int : references users(user_id)
+* chat_id : int : references chats(chat_id)
+}
+
+entity "chats" {
+* chat_id : int : PK
+* subject : varchar(100)
+* creator_id : int :references users (user_id)
+}
+
+chats ||--|{ users
+m ||--|{ users
+m ||--|{ chats
+
+@enduml
+

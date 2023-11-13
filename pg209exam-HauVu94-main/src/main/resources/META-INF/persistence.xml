@@ -1,0 +1,13 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+    <persistence-unit name="chatRoom">
+        <non-jta-data-source>jdbc/dataSource</non-jta-data-source>
+        <class>no.kristiania.ChatServer</class>
+        <class>no.kristiania.Database.Entities.User</class>
+        <class>no.kristiania.Database.Entities.Message</class>
+        <class>no.kristiania.Database.Entities.Chat</class>
+        <class>no.kristiania.Database.Entities.ChatMember</class>
+        <class>no.kristiania.Database.Entities.ChatMembersId</class>
+        <shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode>
+    </persistence-unit>
+
+</persistence>

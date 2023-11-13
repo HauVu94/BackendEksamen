@@ -1,0 +1,11 @@
+GET /api/Chat HTTP/1.1
+host: http://localhost:8080
+
+###
+POST /api/new HTTP/1.1
+host: http://localhost:8080
+Content-Type: application/json
+
+{
+  "test": 1
+}
