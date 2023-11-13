@@ -55,3 +55,4 @@ Link to azure webapp: https://chatmessengerexam.azurewebsites.net/
 ## Hvordan vi har jobbet med eksamen
 Vi har har alltid sittet sammen og jobbet med eksamen , og noen ganger jobbet på samme maskin a la parprogrammering
 ![DatabaseModel](https://user-images.githubusercontent.com/112695202/202850466-f3a621d2-169b-4bcf-887c-2d78bd953147.png)
+ 
